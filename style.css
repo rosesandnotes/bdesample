@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #000;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+} 
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul > li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(102, 102, 174);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+p{
+  color: #fff;
+  font-size: 20px;
+}
