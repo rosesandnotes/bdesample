@@ -48,3 +48,11 @@ p{
   color: #fff;
   font-size: 20px;
 }
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(196, 105, 48);
+  border: none;
+  color: white;
+}
